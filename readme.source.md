@@ -224,11 +224,12 @@
 })()
 ```
 
-```aura width=860 height=168
+```aura width=860 height=220
 (function() {
- var topLangs = github.languages.slice(0, 6).map(function(l) { return l.name; });
  var categories = [
-   { title: 'Languages', color: '#a78bfa', items: topLangs },
+   { title: 'Languages', color: '#a78bfa', items: ['Python', 'C++', 'Java', 'JavaScript', 'TypeScript', 'SQL'] },
+   { title: 'AI/ML', color: '#60a5fa', items: ['PyTorch', 'TensorFlow', 'Scikit-learn', 'OpenCV'] },
+   { title: 'Tools', color: '#f472b6', items: ['Docker', 'Git', 'Linux', 'ROS2'] }
  ];
 
  return (
@@ -277,7 +278,7 @@
        `}
      </style>
 
-     <svg width="860" height="168" style={{ position: 'absolute', top: 0, left: 0 }}>
+     <svg width="860" height="220" style={{ position: 'absolute', top: 0, left: 0 }}>
        <defs>
          <radialGradient id="g1" cx="50%" cy="50%" r="50%">
            <stop offset="0%" stopColor="rgba(115,20,215,0.68)" />
