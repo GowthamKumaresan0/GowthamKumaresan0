@@ -109,7 +109,7 @@
      {github.user.name || github.user.login}
    </div>
    <div style={{ display:'flex', fontSize:15, color:'rgba(180,165,255,0.8)', fontWeight:400, letterSpacing:'0.3px' }}>
-     {github.user.bio || 'Full-Stack Engineer · Competitive Programmer · Open Source'}
+     {github.user.bio || '4th Year B.Tech AI & Data Science · Software Engineer & AI Enthusiast'}
    </div>
 
  </div>
